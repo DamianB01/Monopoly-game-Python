@@ -25,15 +25,15 @@ Game Screenshot:
 
 
 What’s Included: 
-main.py - The main entry point of the game
-board.py - Board setup and fields
-dice.py - Dice rolling logic
-player.py - Player data and behavior
-ai_strategy.py - AI decision making
-menu.py - Main menu and UI flow
-test_game.py - Tests for game logic
-images/ - Game graphics assets
-sounds/ - Game sound assets
+1) main.py - The main entry point of the game
+2) board.py - Board setup and fields
+3) dice.py - Dice rolling logic
+4) player.py - Player data and behavior
+5) ai_strategy.py - AI decision making
+6) menu.py - Main menu and UI flow
+7) test_game.py - Tests for game logic
+8) images/ - Game graphics assets
+9) sounds/ - Game sound assets
 
 License:
 All photos and music are from publicly available sources. This project is for academic purposes only and I do not make any money from it.
