@@ -2,11 +2,11 @@
 
 *Monopoly‑style board game implemented in Python using Pygame with AI opponents and modular architecture.*
 
-About: 
+## About: 
 This project is a Python implementation of the classic board game Monopoly. The game simulates many elements of the original board game, allowing players to move around the board with dice rolls, buy properties, collect rent, and compete to bankrupt their opponents. 
 Monopoly is a turn‑based game where the main goal is to accumulate wealth and eliminate other players by smart investment and property management.
 
-How to Play: 
+## How to Play: 
 The objective of the game is to become the richest player while forcing others into bankruptcy. Start with a fixed amount of money, then take turns rolling two dice and moving your token around the board. 
 On your turn: 
 1) Roll the dice and move accordingly.
@@ -16,15 +16,15 @@ On your turn:
 5) Make strategic decisions: buy properties, form monopolies, and manage your cash wisely.
 6) Keep playing until only one player remains solvent — the winner!
 
-Features: 
+## Features: 
 Modular game structure with multiple Python modules (board.py, player.py, dice.py), basic AI opponents to play against, uses Pygame for graphics and interaction, dice rolling and board movement logic, ownership and finances handled per player, menu and gameplay flow managed via main.py and menu.py.
 
-Game Screenshot:
+## Game Screenshot:
 <img width="939" height="784" alt="monopoly" src="https://github.com/user-attachments/assets/cc35a377-2f3b-48d0-a58d-72f23290c151" />
 
 
 
-What’s Included: 
+## What’s Included: 
 1) main.py - The main entry point of the game
 2) board.py - Board setup and fields
 3) dice.py - Dice rolling logic
@@ -35,5 +35,11 @@ What’s Included:
 8) images/ - Game graphics assets
 9) sounds/ - Game sound assets
 
-License:
+## Architecture
+
+- Modular design separating game logic, AI, and UI
+- Strategy pattern used for AI difficulty levels
+- Unit tests for core game logic
+
+## License:
 All photos and music are from publicly available sources. This project is for academic purposes only and I do not make any money from it.
